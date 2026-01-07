@@ -1,6 +1,6 @@
 [package]
 name = "ai-req-proxy"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 
 authors = ["heqingpan <heqingpan@126.com>"]
