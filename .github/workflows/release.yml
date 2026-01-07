@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 jobs:
-    build:
+  build:
     name: Build ${{ matrix.target }}
     strategy:
       fail-fast: false
