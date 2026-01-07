@@ -3,6 +3,14 @@ name = "ai-req-proxy"
 version = "0.1.0"
 edition = "2024"
 
+authors = ["heqingpan <heqingpan@126.com>"]
+license = "MIT/Apache-2.0"
+description = "ai-req-proxy是一个简单的 HTTP 请求转发代理服务器，专门用于调试和监控 AI API 请求"
+repository = "https://github.com/heqingpan/ai-req-proxy"
+homepage = "https://github.com/heqingpan/ai-req-proxy"
+readme = "README.md"
+keywords = ["ai", "openai", "http-proxy", "proxy"]
+
 [dependencies]
 actix = "0.13"
 actix-web = "4"
