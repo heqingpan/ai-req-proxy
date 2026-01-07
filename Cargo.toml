@@ -15,7 +15,7 @@ keywords = ["ai", "openai", "http-proxy", "proxy"]
 actix = "0.13"
 actix-web = "4"
 actix-http = "3"
-reqwest = {version="0.11",features = ["stream", "rustls-tls"]}
+reqwest = {version="0.11", default-features = false, features = ["stream", "rustls-tls"]}
 tokio = {version="1",features=["full"]}
 tokio-stream = {version="0.1.3",features = ["sync"]}
 futures = "0.3"
